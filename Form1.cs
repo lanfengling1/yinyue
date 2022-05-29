@@ -25,6 +25,11 @@ namespace yinyue
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("1");
+            if(button1 == null)
+            {
+                return;
+            }
         }
+        
     }
 }
